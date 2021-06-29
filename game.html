@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="startGame()">
     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
@@ -38,9 +38,13 @@
 
             <div class="page-content">
                 <h2 class="center"><u>Game: Space</u></h2>
-                <!-- Your content goes here --></div>
-                <canvas></canvas>
+                <!-- Your content goes here -->
+                <!-- <canvas id="canvas" width="640" height="359"></canvas> -->
+                <canvas id="canvas" width="1280" height="410"></canvas>
+            </div>
         </main>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
